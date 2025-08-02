@@ -1,15 +1,14 @@
-# Next.js Starter Template
+# Run and deploy your AI Studio app
 
-## Merkmale
-- Next.js 14 App Router
-- Tailwind CSS
-- Strukturierte Komponenten (Layout / Sections)
-- TypeScript
-- Pfadalias
+This contains everything you need to run your app locally.
 
-## Entwicklung starten
+## Run Locally
 
-```bash
-npm install
-npm run dev
-```
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
